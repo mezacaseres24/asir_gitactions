@@ -1,0 +1,11 @@
+name: primer Git Action prueba
+on:
+  push:
+  
+jobs: 
+  mostrar_mensaje:
+    runs-on: ubuntu-latest
+	steps:
+	  - nema: Escribir hola
+	    run: 
+		  echo "Hola"
