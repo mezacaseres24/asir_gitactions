@@ -6,6 +6,6 @@ jobs:
   mostrar_mensaje:
     runs-on: ubuntu-latest
 	steps:
-	  - nema: Escribir hola
-	    run: 
-		  echo "Hola"
+	- name: Escribir hola
+	  run:
+        echo "Hola"
